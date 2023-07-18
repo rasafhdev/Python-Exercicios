@@ -2,6 +2,6 @@
 Faça um programa que leia um angulo qualquer e mostre na tela o valor do seno, cosse e tangente desse angulo
 """
 
-from math import sin, cos, tan
-ang = int(input('Digite o angulo: '))
-print(f'Seno: {sin(ang)} - Cosseno: {cos(ang)} - Tangente: {tan(ang)}')
+from math import radians, sin, cos, tan
+ang = float(input('Digite o angulo: '))
+print(f'Seno: {sin(radians(ang)):.2f} - Cosseno: {cos(radians(ang)):.2f} - Tangente: {tan(radians(ang)):.2f}')
