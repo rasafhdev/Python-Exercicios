@@ -1,0 +1,1 @@
+print('Esse exercício não foi elaborado pois pygame parou de funcionar')
