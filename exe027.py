@@ -18,18 +18,18 @@ def verifica_nome(nome):
     primeiro_nome = nome[0]
 
     #verifica segundo_nome
-    segundo_nome = nome[-1]
+    ultimo_nome = nome[-1]
 
-    return primeiro_nome, segundo_nome
+    return primeiro_nome, ultimo_nome
 
 # Faz solicitação do nome
 
 nome = input('Digite seu nome completo: ').split()
 
 # chama o metodo
-primeiro_nome, segundo_nome = verifica_nome(nome)
+primeiro_nome, ultimo_nome = verifica_nome(nome)
 
 print(f"""
 Primeiro nome: {primeiro_nome}
-Segundo nome: {segundo_nome}
+Segundo nome: {ultimo_nome}
 """)
