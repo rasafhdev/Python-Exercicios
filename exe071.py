@@ -38,9 +38,11 @@ while True:
         valor_saque = float(input('Valor do saque: '))
         if valor_saque <= 0 or valor_saque > total_disponivel:
             print(f'')
-            print('Valor inválido ou excede o limite disponível.'])
+            print('Valor inválido ou excede o limite disponível.')
             continue
         else:
+            print(f'Calculando notas...')
+            sleep(2)
             notas_disponiveis = [200, 100, 50, 20, 10, 5, 2, 1]
             notas_count = {200: 0, 100: 0, 50: 0, 20: 0, 10: 0, 5: 0, 2: 0, 1: 0}
 
